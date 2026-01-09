@@ -1,4 +1,4 @@
-# ESP32 Fastest Build Tool
+# ESP32 Arduino Fastest Build Tool
 
 [![Windows](https://img.shields.io/badge/Windows-10%2F11-blue?logo=windows)](https://www.microsoft.com/windows)
 [![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-2.x-00979D?logo=arduino)](https://www.arduino.cc/en/software)
