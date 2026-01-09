@@ -3,8 +3,8 @@ chcp 65001 >nul
 setlocal EnableDelayedExpansion
 
 :: ============================================================
-:: Arduino CLI 自動編譯工具（RAM Disk 加速版）
-:: https://github.com/user/arduino-ramdisk-speedup
+:: ESP32 Fastest Build Tool - Arduino CLI 編譯工具
+:: https://github.com/Nuxtack-tw/ESP32-Fastest-Build-Tool
 ::
 :: RAM Disk 建議容量：1GB（大型專案可改為 2GB）
 :: ============================================================
@@ -26,7 +26,10 @@ set "BUILD_DIR=%RAMDISK%\arduino-build"
 
 echo.
 echo ============================================================
-echo   Arduino CLI 編譯工具 ^(RAM Disk 加速版^)
+echo        ESP32 Fastest Build Tool v1.0
+echo        Arduino CLI 編譯工具
+echo        Build: 2026-01-09
+echo        Powered by Yuanpro@Nuxtack
 echo ============================================================
 
 :: 檢查參數
@@ -45,7 +48,7 @@ if "%~1"=="" (
     echo FQBN 範例:
     echo   arduino:avr:uno
     echo   arduino:avr:nano:cpu=atmega328old
-    echo   esp32:esp32:esp32s3:CDCOnBoot=cdc,FlashSize=16M
+    echo   esp32:esp32:esp32s3:PartitionScheme=no_ota,FlashSize=16M
     echo.
     echo 取得 FQBN:
     echo   arduino-cli board listall

@@ -3,8 +3,8 @@ chcp 65001 >nul
 setlocal
 
 :: ============================================================
-:: Arduino IDE 還原預設設定工具
-:: https://github.com/user/arduino-ramdisk-speedup
+:: ESP32 Fastest Build Tool - 還原預設設定工具
+:: https://github.com/Nuxtack-tw/ESP32-Fastest-Build-Tool
 :: ============================================================
 
 set "ARDUINO_SKETCHES=%LOCALAPPDATA%\arduino\sketches"
@@ -22,7 +22,10 @@ if %errorlevel% neq 0 (
 
 echo.
 echo ============================================================
-echo   Arduino IDE 還原預設設定工具
+echo        ESP32 Fastest Build Tool v1.0
+echo        RAM Disk 還原預設設定工具
+echo        Build: 2026-01-09
+echo        Powered by Yuanpro@Nuxtack
 echo ============================================================
 echo.
 echo 此工具將移除 RAM Disk 符號連結，還原為預設設定。

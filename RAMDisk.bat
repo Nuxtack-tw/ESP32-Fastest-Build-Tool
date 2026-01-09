@@ -3,8 +3,8 @@ chcp 65001 >nul
 setlocal EnableDelayedExpansion
 
 :: ============================================================
-:: Arduino IDE RAM Disk 符號連結設定工具
-:: https://github.com/user/arduino-ramdisk-speedup
+:: ESP32 Fastest Build Tool - 符號連結設定工具
+:: https://github.com/Nuxtack-tw/ESP32-Fastest-Build-Tool
 ::
 :: RAM Disk 建議容量：1GB（大型專案可改為 2GB）
 :: ============================================================
@@ -28,7 +28,10 @@ if %errorlevel% neq 0 (
 
 echo.
 echo ============================================================
-echo   Arduino IDE RAM Disk 符號連結設定工具
+echo        ESP32 Fastest Build Tool v1.0
+echo        RAM Disk 與 Windows符號連結設定工具
+echo        Build: 2026-01-09
+echo        Powered by Yuanpro@Nuxtack
 echo ============================================================
 echo.
 
